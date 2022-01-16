@@ -5243,7 +5243,7 @@ a {
 }
 
 .p-section--company-profile__table {
-  width: 70%;
+  width: 500px;
   margin-right: 5rem;
   margin-top: 3rem;
 }
@@ -5255,7 +5255,17 @@ a {
   }
 }
 
-.p-section--company-profile__table-data {
+.p-section--company-profile__table-data1 {
+  color: #8a653e;
+  font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
+  font-size: 1.1rem;
+  vertical-align: middle;
+  line-height: 2;
+  padding: 0.5rem 0;
+  width: 200px;
+}
+
+.p-section--company-profile__table-data2 {
   color: #8a653e;
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   font-size: 1.1rem;
@@ -5263,6 +5273,7 @@ a {
   vertical-align: middle;
   line-height: 2;
   padding: 0.5rem 0;
+  width: 300px;
 }
 
 .p-section--company-profile__table__frame {
@@ -5276,7 +5287,6 @@ a {
 }
 @media screen and (max-width: 1023px) {
   .p-section--company-profile__table__frame__number {
-    display: flex;
     width: 280%;
   }
 }
@@ -5288,7 +5298,23 @@ a {
 @media screen and (max-width: 1023px) {
   .p-section--company-profile__table__frame__register {
     display: flex;
-    width: 280%;
+    width: 250%;
+  }
+}
+
+.p-section--company-profile__table-data1__register {
+  color: #8a653e;
+  font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
+  font-size: 1.1rem;
+  vertical-align: middle;
+  line-height: 2;
+  padding: 0.5rem 0;
+  width: 200px;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .p-section--company-profile__table-data1__register {
+    display: block;
   }
 }
 
@@ -5297,6 +5323,8 @@ a {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   font-size: 1.1rem;
   margin-left: 0.5rem;
+  vertical-align: middle;
+  width: 150px;
 }
 @media screen and (max-width: 1023px) {
   .p-section--company-profile__table-data__number__item {
@@ -5325,6 +5353,8 @@ a {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   font-size: 1.1rem;
   margin-left: 0.5rem;
+  vertical-align: middle;
+  width: 150px;
 }
 @media screen and (max-width: 1023px) {
   .p-section--company-profile__table-data__register__item {
@@ -5353,6 +5383,7 @@ a {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   font-size: 1.1rem;
   margin-left: 0.5rem;
+  vertical-align: middle;
 }
 @media screen and (max-width: 1023px) {
   .p-section--company-profile__table-data__business-contents__item {
@@ -5545,6 +5576,10 @@ a {
   margin-right: 15px;
 }
 
+.u-margin--right__35px {
+  margin-right: 35px;
+}
+
 .u-margin--table-data__number {
   margin-right: 15px;
   margin-top: 7.5%;
@@ -5578,6 +5613,15 @@ a {
 @media screen and (max-width: 1023px) {
   .u-display--none__block {
     display: block;
+  }
+}
+
+.u-br--pc {
+  display: inline;
+}
+@media screen and (max-width: 767px) {
+  .u-br--pc {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
